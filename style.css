@@ -1,0 +1,276 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: black;
+    height:60px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+/* LOGO */
+.nav-logo{
+    height:50px;
+    width:100px;
+    padding:1px 8px 0px 6px;
+}
+
+.logo{
+    background-image:url("https://cdn.kibrispdr.org/data/4/amazon-logo-black-background-8.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+
+/* BORDER HOVER */
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+
+/* ADDRESS */
+.deliver{
+    color:#cccccc;
+    font-size:0.85rem;
+}
+
+.india{
+    color:white;
+    font-size:1rem;
+}
+
+.address-icon{
+    display:flex;
+    align-items:center;
+}
+
+/* SEARCH */
+.nav-search{
+    display:flex;
+    background-color:pink;
+    width:600px;
+    height:40px;
+    border-radius:5px;
+}
+
+.select{
+    width:50px;
+    text-align:center;
+    border:none;
+    background:#f3f3f3;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+    text-align:center;
+}
+
+.search{
+    width:45px;
+    background:#febd68;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+/* SIGNIN / RETURN */
+.nav-second{
+    font-size:0.8rem;
+}
+
+/* CART */
+.nav-cart{
+    display:flex;
+    gap:5px;
+    font-size:1rem;
+}
+
+.nav-cart i{
+    font-size:25px;
+}
+
+/* PANEL */
+.panel{
+    display:flex;
+    height:40px;
+    background-color:#222f3d;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+}
+
+.panel-options p{
+    display:inline;
+    margin-left:10px;
+}
+
+.panel-options{
+    width:70%;
+    font-size:0.8rem;
+}
+
+/* HERO */
+.hero-section{
+    background-image:url("https://m.media-amazon.com/images/I/71ROLBmB4AL._SX3000_.jpg");
+    background-size:cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.hero-msg{
+    background:white;
+    height:40px;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:90%;
+    margin-bottom:25px;
+}
+
+/* SHOP SECTION */
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    background:#e3e6e6;
+    padding:20px;
+}
+
+.box{
+    height:400px;
+    width:23%;
+    background:white;
+    padding:20px 0 15px;
+    margin-bottom:20px;
+}
+
+.box h2{
+    margin-left:10px;
+}
+
+/* IMAGES */
+.box1-img,
+.box2-img,
+.box3-img,
+.box4-img,
+.box5-img,
+.box6-img,
+.box7-img,
+.box8-img{
+    height:300px;
+    background-size:cover;
+    margin:10px 10px;
+}
+
+/* IMAGES LINKS */
+.box1-img{
+background-image:url("https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800");
+}
+.box2-img{
+background-image:url("https://images.unsplash.com/photo-1521334884684-d80222895322?w=800");
+}
+.box3-img{
+background-image:url("https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800");
+}
+.box4-img{
+background-image:url("https://images.unsplash.com/photo-1518770660439-4636190af475?w=800");
+}
+.box5-img{
+background-image:url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800");
+}
+.box6-img{
+background-image:url("https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800");
+}
+.box7-img{
+background-image:url("https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800");
+}
+.box8-img{
+background-image:url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800");
+}
+
+/* BOX TEXT */
+.box p{
+    margin-left:10px;
+    color:#007185;
+    cursor:pointer;
+}
+
+.box p:hover{
+    color:#c7511f;
+}
+
+/* FOOTER */
+footer{
+    margin-top:20px;
+}
+
+/* FOOTER TOP */
+.foot-panel1{
+    background:#37475a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    cursor:pointer;
+}
+
+/* FOOTER LINKS */
+.foot-panel2{
+    background:#232f3e;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding:40px 20px;
+}
+
+.foot-panel2 ul{
+    display:flex;
+    flex-direction:column;
+}
+
+.foot-panel2 a{
+    color:#ddd;
+    font-size:14px;
+    margin-top:8px;
+}
+
+/* FOOTER LOGO */
+.foot-panel3{
+    background:#232f3e;
+    border-top:1px solid gray;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+/* FOOTER BOTTOM */
+.foot-panel4{
+    background:#131a22;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:13px;
+}
